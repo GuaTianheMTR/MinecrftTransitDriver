@@ -1,0 +1,13 @@
+pluginManagement {
+	repositories {
+		maven {
+			name = "Tencent Fabric"
+			url = "https://mirrors.cloud.tencent.com/fabric/"
+		}
+		maven {
+			name = "Fabric"
+			url = "https://maven.fabricmc.net/"
+		}
+		gradlePluginPortal()
+	}
+}
