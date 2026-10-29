@@ -1,0 +1,12 @@
+{
+	"key.categories.mtrdriver": "MTR驾驶进阶",
+	"key.mtrdriver.left_door": "开/关左侧车门",
+	"key.mtrdriver.right_door": "开/关右侧车门",
+	"message.mtrdriver.not_driving": "请先驾驶列车",
+	"message.mtrdriver.no_driver_key": "请手持有效的驾驶钥匙",
+	"message.mtrdriver.no_door_control": "该驾驶钥匙无法控制车门",
+	"message.mtrdriver.not_stopped": "请先停稳列车",
+	"message.mtrdriver.open": "开",
+	"message.mtrdriver.closed": "关",
+	"message.mtrdriver.status": "车门状态：左 %s / 右 %s"
+}

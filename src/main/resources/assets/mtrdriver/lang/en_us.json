@@ -1,0 +1,12 @@
+{
+	"key.categories.mtrdriver": "MTR Driving Advanced",
+	"key.mtrdriver.left_door": "Open/Close Left Doors",
+	"key.mtrdriver.right_door": "Open/Close Right Doors",
+	"message.mtrdriver.not_driving": "You must be driving a train",
+	"message.mtrdriver.no_driver_key": "Hold a valid driver key to operate the doors",
+	"message.mtrdriver.no_door_control": "This driver key cannot operate doors",
+	"message.mtrdriver.not_stopped": "Stop the train before operating the doors",
+	"message.mtrdriver.open": "Open",
+	"message.mtrdriver.closed": "Closed",
+	"message.mtrdriver.status": "Doors: Left %s / Right %s"
+}

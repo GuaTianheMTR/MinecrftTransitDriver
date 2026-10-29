@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "mtrdriver",
+	"version": "${version}",
+	"name": "MinecraftTransitDriver | MTR驾驶进阶",
+	"description": "MTR驾驶进阶：用左右方向键分别开关左右侧车门；即使没有站台方块也能完整播放开门动画。THRT | 天河轨交",
+	"authors": [
+		"THRT | 天河轨交"
+	],
+	"license": "MIT",
+	"icon": "assets/mtrdriver/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"main": [
+			"com.thrt.mtrdriver.MTRDriver"
+		],
+		"client": [
+			"com.thrt.mtrdriver.client.MTRDriverClient"
+		]
+	},
+	"mixins": [
+		"mtd.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.0",
+		"fabric": "*",
+		"minecraft": "1.20.4",
+		"mtr": ">=4.0.5 <4.1.0"
+	}
+}

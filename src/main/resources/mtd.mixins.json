@@ -1,0 +1,15 @@
+{
+	"required": true,
+	"minVersion": "0.8",
+	"package": "com.thrt.mtrdriver.mixin.client",
+	"compatibilityLevel": "JAVA_17",
+	"client": [
+		"PersistentVehicleDataMixin",
+		"RenderVehicleHelperMixin",
+		"RenderVehiclesMixin",
+		"VehicleRidingMovementMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
